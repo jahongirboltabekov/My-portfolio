@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container_1{
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.container_2{
+  max-width: 1500px;
+  margin: 0 auto;
+}
