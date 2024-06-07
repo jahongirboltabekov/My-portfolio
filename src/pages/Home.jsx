@@ -10,7 +10,7 @@ function Home() {
         <HomePage/>
         <About/>
         <Projects/>
-        <Contact/>
+        <Contact />
     </div>
   )
 }

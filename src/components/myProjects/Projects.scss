@@ -83,3 +83,69 @@
         }
     }
 }
+
+@media (max-width:1100px){
+    .project_cards{
+        .pjc_card{
+            display: flex;
+            flex-direction: column;
+            
+            .project_imgs{
+                position: relative;
+    
+                .project_img{
+                    max-width: 320px;
+                    height: 200px;
+                    position: absolute;
+                    right: 50px;
+                    top:20px
+                }
+    
+                .laptop_img{
+                    max-width: 420px;
+                }
+            }
+            
+            .about_pjc{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+    
+                .project_h2{
+                    text-align: center;
+                    font-family: 'Roboto';
+                    font-weight: 600;
+                    font-size: 50px;
+                }
+    
+                .project_p2{
+                    text-align: center;
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 40px;
+                }
+    
+                a{
+                    text-decoration: none;
+    
+                    h6{
+                        text-align: center;
+                        font-family: 'Roboto';
+                        font-weight: 900;
+                        font-size: 25px;
+                        line-height: 60px;
+                        color: black;
+                    }
+    
+                    h6:hover{
+                        color: blue;
+                    }
+    
+                }
+            }  
+        }
+
+    }
+}

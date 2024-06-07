@@ -1,6 +1,6 @@
 import React from 'react'
-import img_me from '../../assets/me.jpg'
 import { NavLink } from 'react-router-dom'
+import img_me from '../../assets/me.jpg'
 import './Navbar.scss'
 
 function Navbar() {
@@ -10,13 +10,13 @@ function Navbar() {
             <nav>
                 <div className="img_me_div">
                     <NavLink to={'/'}><img className='img_me' src={img_me} alt="" /></NavLink>
-                    <NavLink><p className='p_me'>BOLTABEKOV JAKHONGIR</p></NavLink>
+                    <NavLink to={'/'}><p className='p_me'>BOLTABEKOV JAKHONGIR</p></NavLink>
                 </div>
                 <ul>
-                   <NavLink><li>HOME</li></NavLink>
-                   <NavLink><li>ABOUT ME</li></NavLink>
-                   <NavLink><li>PROJECTS</li></NavLink>
-                   <NavLink><li>CONTACT</li></NavLink>
+                   <a href='#home'><li>HOME</li></a>
+                   <a href='#about'><li>ABOUT ME</li></a>
+                   <a href='#project'><li>PROJECTS</li></a>
+                   <a href='#contact'><li>CONTACT</li></a>
                 </ul>
             </nav>
         </div>

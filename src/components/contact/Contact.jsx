@@ -32,29 +32,31 @@ function Contact() {
         setMessage('');
     };
   return (
-    <div className='contact_div'>
-        <div className="container_2">
-            <h3 className='contact_h3'>Contact with me</h3>
-            <p className='contact_p'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
-            <div className="contact">
-                <form onSubmit={handleSubmit} className="inputs">
-                    <div className="input">
-                        <p>Fullname</p>
-                        <input required type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Enter your name...' />
-                    </div>
-                    <div className="input">
-                        <p>Email</p>
-                        <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Enter you email...' />
-                    </div>
-                    <div className="input">
-                        <p className='message_p'>Message</p>
-                        <textarea required value={message} onChange={(e) => setMessage(e.target.value)} name="" id="" cols="30" rows="10" placeholder='Type your message'></textarea>
-                    </div>
-                    <button type='submit'>Send</button>
-                </form>
-            </div>
-        </div>
-    </div>
+    <section id='contact'>
+      <div className='contact_div'>
+          <div className="container_2">
+              <h3 className='contact_h3'>Contact with me</h3>
+              <p className='contact_p'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+              <div className="contact">
+                  <form onSubmit={handleSubmit} className="inputs">
+                      <div className="input">
+                          <p>Fullname</p>
+                          <input required type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Enter your name...' />
+                      </div>
+                      <div className="input">
+                          <p>Email</p>
+                          <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Enter you email...' />
+                      </div>
+                      <div className="input">
+                          <p className='message_p'>Message</p>
+                          <textarea required value={message} onChange={(e) => setMessage(e.target.value)} name="" id="" cols="30" rows="10" placeholder='Type your message'></textarea>
+                      </div>
+                      <button type='submit'>Send</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </section>
   )
 }
 
