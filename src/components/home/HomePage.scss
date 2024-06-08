@@ -160,7 +160,7 @@
     
         .socialMedia{
             position: absolute;
-            right: 100px;
+            // right: 50px;
     
             a{
                 text-decoration: none;
@@ -169,7 +169,8 @@
                 padding: 5px !important;
                 border-radius: 0px 20px 20px 0px;
                 display: flex;
-                gap: 5px;
+                flex-direction: column;
+                gap: 0px !important;
                 align-items: center;
                 color: white;
                 font-size: 16px !important;
@@ -179,8 +180,9 @@
     
     
                 .social_icon{
-                    font-size: 20px !important;
+                    font-size: 25px !important;
                     color: black;
+                    margin-top: 20px;
                 }
             }
     
@@ -194,8 +196,9 @@
                 transform: scaleX(1.1);
     
                 .social_icon{
-                    font-size: 20px;
+                    font-size: 25px;
                     color: white;
+                    margin-top: 20px;
                 }
             }
     
@@ -207,13 +210,13 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 260px 0;
+            padding: 200px 0;
             position: relative;
         
             .home_h1{
                 font-family: 'Roboto';
-                font-weight: 600;
-                font-size: 20px !important;
+                font-weight: 900;
+                font-size: 16px !important;
                 letter-spacing: 0px !important;
                 margin-bottom: 30px;
             }
@@ -221,14 +224,14 @@
             .home_h2{
                 font-family: 'Roboto';
                 font-weight: 400;
-                font-size: 25px;
-                letter-spacing: 2px;
+                font-size: 20px;
+                letter-spacing: 0px !important;
                 margin-bottom: 30px;
     
                 span{
                     font-family: 'Roboto';
                     font-weight: 900;
-                    font-size: 25px;
+                    font-size: 20px;
                     background-color: black;
                     color: white;
                 }
@@ -236,8 +239,8 @@
     
             .home_p{
                 text-align: center;
-                max-width: 900px;
-                font-size: 20px;
+                max-width: 600px;
+                font-size: 16px;
                 font-family: 'Roboto';
                 font-weight: 400;
                 line-height: 30px;

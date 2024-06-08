@@ -28,7 +28,7 @@ function HomePage() {
                     <h1 className='home_h1'>WELCOME &nbsp; TO &nbsp; MY &nbsp; PORTFOLIO !</h1>
                     <h2 className='home_h2'>I'm a &nbsp;  
                         <span></span> 
-                        <span> {text}  <Cursor/></span>
+                        <span> {text}<Cursor/></span>
                     </h2>
                     <p className='home_p'>
                         I live in Uzbekistan's capital Tashkent. I make front-end websites. I have no work experience. But I have love and determination for my work. Nothing is impossible for me. Just have to try
