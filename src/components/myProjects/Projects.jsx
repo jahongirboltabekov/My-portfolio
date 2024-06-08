@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 function Projects() {
   return (
     <section id='project'>
-      <div>
+      <div className='Project_div'>
         <div className="container_2">
             <h3 className='projects_h3'>My Projects</h3>
             <p className='projects_p'>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
