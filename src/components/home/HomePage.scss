@@ -160,26 +160,26 @@
     
         .socialMedia{
             position: absolute;
-            left: 75px;
+            right: 100px;
     
             a{
                 text-decoration: none;
             }
             li{
-                padding: 20px;
+                padding: 5px !important;
                 border-radius: 0px 20px 20px 0px;
                 display: flex;
-                gap: 10px;
+                gap: 5px;
                 align-items: center;
                 color: white;
-                font-size: 20px;
+                font-size: 16px !important;
                 font-family: 'Roboto';
-                font-weight: 600;
+                font-weight: 400 !important;
                 transform: scaleY(1);
     
     
                 .social_icon{
-                    font-size: 25px;
+                    font-size: 20px !important;
                     color: black;
                 }
             }
@@ -187,14 +187,14 @@
             li:hover{
                 color: white;
                 background-color: black;
-                font-size: 20px;
+                font-size: 16px;
                 font-family: 'Roboto';
-                font-weight: 600;
+                font-weight: 400;
                 transition: 0.5s;
                 transform: scaleX(1.1);
     
                 .social_icon{
-                    font-size: 25px;
+                    font-size: 20px;
                     color: white;
                 }
             }
@@ -213,7 +213,7 @@
             .home_h1{
                 font-family: 'Roboto';
                 font-weight: 600;
-                font-size: 25px !important;
+                font-size: 20px !important;
                 letter-spacing: 0px !important;
                 margin-bottom: 30px;
             }
@@ -221,14 +221,14 @@
             .home_h2{
                 font-family: 'Roboto';
                 font-weight: 400;
-                font-size: 30px;
+                font-size: 25px;
                 letter-spacing: 2px;
                 margin-bottom: 30px;
     
                 span{
                     font-family: 'Roboto';
                     font-weight: 900;
-                    font-size: 30px;
+                    font-size: 25px;
                     background-color: black;
                     color: white;
                 }
